@@ -4,6 +4,15 @@
     {
         static void Main(string[] args)
         {
+            //Call business layer
+            List<TodoItem> todos = GetAllTodos();
+
+            //User interface output
+            todos.ForEach(x => Console.WriteLine(x.Name));
+        }
+
+        private static List<TodoItem> GetAllTodos()
+        {
             TodoItem todo1 = new()
             {
                 Id = 1,
@@ -12,8 +21,7 @@
 
             List<TodoItem> todos = new();
             todos.Add(todo1);
-
-            todos.ForEach(x => Console.WriteLine(x.Name));
+            return todos;
         }
     }
 

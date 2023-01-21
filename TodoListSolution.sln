@@ -11,7 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayerClassLibrary1"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayerClassLibrary1", "DataLayerClassLibrary1\DataLayerClassLibrary1.csproj", "{C9BE55DB-77B2-44BF-AA25-586EA507BF00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModelsClassLibrary1", "DataModelsClassLibrary1\DataModelsClassLibrary1.csproj", "{63E23C58-415B-4624-9847-8A395A0B0BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModelsClassLibrary1", "DataModelsClassLibrary1\DataModelsClassLibrary1.csproj", "{63E23C58-415B-4624-9847-8A395A0B0BD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{483BE6B9-875C-4AE0-8712-1E6205832382}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

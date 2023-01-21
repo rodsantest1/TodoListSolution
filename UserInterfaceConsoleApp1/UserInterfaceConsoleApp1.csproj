@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayerClassLibrary1\BusinessLayerClassLibrary1.csproj" />
+    <ProjectReference Include="..\DataModelsClassLibrary1\DataModelsClassLibrary1.csproj" />
   </ItemGroup>
 
 </Project>

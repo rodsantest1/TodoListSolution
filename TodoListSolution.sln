@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterfaceConsoleApp1", "UserInterfaceConsoleApp1\UserInterfaceConsoleApp1.csproj", "{DEF8DB40-0E7F-4E2F-9B5D-39DB68FC3A14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInterfaceConsoleApp1", "UserInterfaceConsoleApp1\UserInterfaceConsoleApp1.csproj", "{DEF8DB40-0E7F-4E2F-9B5D-39DB68FC3A14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterfaceWinFormsApp1", "UserInterfaceWinFormsApp1\UserInterfaceWinFormsApp1.csproj", "{4486F6B2-BCEE-464A-8AA0-D47057680E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInterfaceWinFormsApp1", "UserInterfaceWinFormsApp1\UserInterfaceWinFormsApp1.csproj", "{4486F6B2-BCEE-464A-8AA0-D47057680E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayerClassLibrary1", "BusinessLayerClassLibrary1\BusinessLayerClassLibrary1.csproj", "{5007A714-602E-4057-A8D3-2ADD7B990821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayerClassLibrary1", "BusinessLayerClassLibrary1\BusinessLayerClassLibrary1.csproj", "{5007A714-602E-4057-A8D3-2ADD7B990821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayerClassLibrary1", "DataLayerClassLibrary1\DataLayerClassLibrary1.csproj", "{C9BE55DB-77B2-44BF-AA25-586EA507BF00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayerClassLibrary1", "DataLayerClassLibrary1\DataLayerClassLibrary1.csproj", "{C9BE55DB-77B2-44BF-AA25-586EA507BF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModelsClassLibrary1", "DataModelsClassLibrary1\DataModelsClassLibrary1.csproj", "{63E23C58-415B-4624-9847-8A395A0B0BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C9BE55DB-77B2-44BF-AA25-586EA507BF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9BE55DB-77B2-44BF-AA25-586EA507BF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9BE55DB-77B2-44BF-AA25-586EA507BF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E23C58-415B-4624-9847-8A395A0B0BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E23C58-415B-4624-9847-8A395A0B0BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E23C58-415B-4624-9847-8A395A0B0BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E23C58-415B-4624-9847-8A395A0B0BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
